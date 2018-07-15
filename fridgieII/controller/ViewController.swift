@@ -63,7 +63,7 @@ extension ViewController: UITableViewDataSource {
         guard editingStyle == .delete else { return }
         cupboardItems.remove(at: indexPath.row)
         
-        tableView.deleteRows(at: [indexPath], with: .automatic)
+        tableView.deleteRows(at: [indexPath], with: .fade)
     }
 }
 
