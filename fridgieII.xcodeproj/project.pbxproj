@@ -56,15 +56,47 @@
 		5A3603881F8A730800459F76 /* fridgieII */ = {
 			isa = PBXGroup;
 			children = (
-				5A3603891F8A730800459F76 /* AppDelegate.swift */,
-				5A36038B1F8A730800459F76 /* ViewController.swift */,
-				5A36038D1F8A730800459F76 /* Main.storyboard */,
-				5A3603901F8A730800459F76 /* Assets.xcassets */,
-				F5938FCC20EF184300C39DDD /* foodIcon.svg */,
-				5A3603921F8A730800459F76 /* LaunchScreen.storyboard */,
 				5A3603951F8A730800459F76 /* Info.plist */,
+				F5B2206320FB01A400A68793 /* assets */,
+				F5B2206220FB006100A68793 /* controller */,
+				F5B2206120FB005100A68793 /* model */,
+				F5B2206020FB003900A68793 /* view */,
 			);
 			path = fridgieII;
+			sourceTree = "<group>";
+		};
+		F5B2206020FB003900A68793 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5A3603921F8A730800459F76 /* LaunchScreen.storyboard */,
+				5A36038D1F8A730800459F76 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F5B2206120FB005100A68793 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5A3603891F8A730800459F76 /* AppDelegate.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F5B2206220FB006100A68793 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A36038B1F8A730800459F76 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F5B2206320FB01A400A68793 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5A3603901F8A730800459F76 /* Assets.xcassets */,
+				F5938FCC20EF184300C39DDD /* foodIcon.svg */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Fridgie;
 				TargetAttributes = {
 					5A3603851F8A730800459F76 = {
@@ -181,6 +213,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +221,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +272,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +280,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
